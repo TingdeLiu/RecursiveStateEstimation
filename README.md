@@ -68,10 +68,6 @@ filter_pf.m              % Particle filter implementation
 ...
 ```
 
-## 📅 Deadlines
-
-- 📤 **Submission deadline**: 10.06.2024
-- 🧪 **Colloquium/Presentation**: 24.06.2024
 
 ## 🛠 Notes
 
@@ -82,10 +78,9 @@ filter_pf.m              % Particle filter implementation
 
 ## 📬 Contact
 
-M.Sc. Rozhin Moftizadeh  
-Room B161, Geodätisches Institut  
-📧 moftizadeh@gih.uni-hannover.de  
-📞 0511-762 -3585
+M.Sc. Tingde Liu 
+E-Mail: tingde.liu.luh@gmail.com 
+
 
 ---
 

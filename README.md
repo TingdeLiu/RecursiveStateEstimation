@@ -57,15 +57,19 @@ Each filter is modularly implemented in separate MATLAB functions.
 ## 📁 File Structure
 
 ```
-main.m                   % Main entry for data loading and execution
-ffun.m                   % System model
-hfun.m                   % Measurement model
-filter_ekf.m             % EKF implementation
-filter_iekf.m            % IEKF implementation
-filter_ukf.m             % UKF implementation
-filter_enkf.m            % EnKF implementation
-filter_pf.m              % Particle filter implementation
-...
+├── data/ # Raw and processed data files
+├── filters/ # Implementations of various filtering algorithms
+│ ├── filter_ekf.m
+│ ├── filter_iekf.m
+│ ├── filter_ukf.m
+│ ├── filter_enkf.m
+│ └── filter_pf.m
+├── functions/ # System and measurement model functions
+│ ├── ffun.m
+│ └── hfun.m
+├── results/ # Output results and visualizations
+├── main.m # Main script for execution
+└── README.md # Project documentation
 ```
 
 
